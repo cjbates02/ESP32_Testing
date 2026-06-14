@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
+// Blinks the built in RGP light on the ESP32 board.
+
 #define RGB_PIN 38
 
 Adafruit_NeoPixel pixel(1, RGB_PIN, NEO_GRB + NEO_KHZ800);
