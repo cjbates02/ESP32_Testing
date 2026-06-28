@@ -5,6 +5,7 @@ const int LED_PIN = 2;
 void setup()
 {
     Serial.begin(115200);
+    Serial.println("hello world...");
     pinMode(LED_PIN, OUTPUT);
 }
 
